@@ -6,26 +6,41 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\Inicio</sound>
+    <sound>sound\Fondo</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\boton</sprite>
+    <sprite>sprites\Regresar</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Menu</background>
+    <background>background\N1</background>
+    <background>background\f1</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <objects name="Botones">
       <object>objects\Iniciar</object>
       <object>objects\Salir</object>
+      <object>objects\pasn1</object>
+      <object>objects\RegresarMP</object>
     </objects>
     <objects name="Sonidos">
       <object>objects\MEPRI</object>
+      <object>objects\Partidas</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\MenuP</room>
     <room>rooms\Nivel1</room>
+    <room>rooms\Nivel2</room>
+    <room>rooms\Nivel4</room>
+    <room>rooms\Nivel5</room>
+    <room>rooms\End</room>
+    <room>rooms\ni1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
