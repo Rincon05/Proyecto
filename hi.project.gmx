@@ -5,17 +5,25 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\Inicio</sound>
-    <sound>sound\Fondo</sound>
+    <sound>sound\son_inicio</sound>
+    <sound>sound\son_fondo</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\boton</sprite>
-    <sprite>sprites\Regresar</sprite>
+    <sprite>sprites\spt_boton</sprite>
+    <sprite>sprites\spt_regresar</sprite>
+    <sprites name="Player">
+      <sprite>sprites\spt_playerRight</sprite>
+      <sprite>sprites\spt_olayerleft</sprite>
+      <sprite>sprites\spt_playerstopleft</sprite>
+      <sprite>sprites\spt_playerstopright</sprite>
+    </sprites>
+    <sprite>sprites\spt_piso1</sprite>
+    <sprite>sprites\spt_block</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\Menu</background>
-    <background>background\N1</background>
-    <background>background\f1</background>
+    <background>background\bgd_Menu</background>
+    <background>background\bgd_n1</background>
+    <background>background\bgd_Nivel1</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -23,24 +31,26 @@
   </fonts>
   <objects name="objects">
     <objects name="Botones">
-      <object>objects\Iniciar</object>
-      <object>objects\Salir</object>
-      <object>objects\pasn1</object>
-      <object>objects\RegresarMP</object>
+      <object>objects\btn_inicio</object>
+      <object>objects\btn_salir</object>
+      <object>objects\btn_pasarn1</object>
+      <object>objects\btn_regresar</object>
     </objects>
     <objects name="Sonidos">
       <object>objects\MEPRI</object>
       <object>objects\Partidas</object>
     </objects>
+    <object>objects\obj_player</object>
+    <object>objects\obj_block</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\MenuP</room>
-    <room>rooms\Nivel1</room>
-    <room>rooms\Nivel2</room>
-    <room>rooms\Nivel4</room>
-    <room>rooms\Nivel5</room>
-    <room>rooms\End</room>
-    <room>rooms\ni1</room>
+    <room>rooms\room_Menu</room>
+    <room>rooms\room_Nivel1</room>
+    <room>rooms\room_Nivel2</room>
+    <room>rooms\room_Nivel3</room>
+    <room>rooms\room_Nivel4</room>
+    <room>rooms\room_End</room>
+    <room>rooms\room_n1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
